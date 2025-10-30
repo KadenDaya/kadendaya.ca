@@ -16,16 +16,22 @@ const Navbar = () => {
           </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between justify-self-center">
+        <div className="w-[700px] h-full flex flex-row items-center justify-between justify-self-center">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             <a href="/about-me" className="cursor-pointer">
-              About me
-            </a>
-            <a href="#skills" className="cursor-pointer">
-              Skills
+              About Me
             </a>
             <a href="/projects" className="cursor-pointer">
               Projects
+            </a>
+            <a href="/skills" className="cursor-pointer">
+              Skills
+            </a>
+            <a href="/blog" className="cursor-pointer">
+              Blog
+            </a>
+            <a href="/contact" className="cursor-pointer">
+              Contact Me
             </a>
           </div>
         </div>

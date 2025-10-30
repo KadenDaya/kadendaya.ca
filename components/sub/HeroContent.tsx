@@ -47,12 +47,22 @@ const HeroContent = () => {
         >
           I like to build things.
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More!
-        </motion.a>
+        <div className="flex flex-row items-center gap-4 flex-wrap sm:flex-nowrap">
+          <motion.a
+            variants={slideInFromLeft(1)}
+            href="/about-me"
+            className="h-10 px-5 inline-flex items-center justify-center button-primary text-white cursor-pointer rounded-lg whitespace-nowrap"
+          >
+            Learn More
+          </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1.1)}
+            href="/resume"
+            className="h-10 px-5 inline-flex items-center justify-center button-primary text-white rounded-lg whitespace-nowrap"
+          >
+            Resume
+          </motion.a>
+        </div>
       </div>
 
       <motion.div
